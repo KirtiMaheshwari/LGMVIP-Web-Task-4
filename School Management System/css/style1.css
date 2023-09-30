@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing : border-box;
+
+}
+/*################################## Count Styling#############################*/
+.counts{
+    
+    margin-top: 3rem;
+    
+}
+.count-item span {
+    font-size: 3rem;
+    font-weight: 700;
+    color:#e63946;
+}
+.count-item{
+    Float: left;
+    width:25%;
+    text-align: center;
+}
+.counts::after{
+    content: '';
+    display:block;
+    clear:both;
+}
+
+.count-item p{
+    font-weight: 700;
+    color: #555;
+    font-size: 1.8 rem;
+}
